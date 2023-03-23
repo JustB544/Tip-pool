@@ -31,7 +31,7 @@ function appendDeleteBtn(tr) {
   newTd.addEventListener("click", deleteBtn);
   tr.append(newTd);
 }
-
+//hi
 function deleteBtn(e) {
   ap = {};
   for (let key in allPayments) {
